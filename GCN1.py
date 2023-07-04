@@ -8,7 +8,7 @@ from tensorflow import keras
 from tensorflow.keras import layers
 
 citations = pd.read_csv(
-    "D:\Research\Metal Organic Framework\MOF_SMILES_2000\EdgesList.csv",
+    "Data\EdgesList.csv",
     header=None,
     names=["target", "source"],
 )
@@ -16,7 +16,7 @@ citations = pd.read_csv(
 #####print(citations.sample(frac=1).head())
 
 column_names = ["paper_id"] + [f"term_{idx}" for idx in range(6)] + ["subject"]
-papers = pd.read_csv("D:\Research\Metal Organic Framework\MOF_SMILES_2000\content.csv", header=None, names=column_names,
+papers = pd.read_csv("Data\content.csv", header=None, names=column_names,
 )
 #####print("Papers shape:", papers.shape)
 #####print(papers.sample(frac=1).head())
