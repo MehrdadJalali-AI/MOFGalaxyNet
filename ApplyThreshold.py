@@ -10,7 +10,7 @@ csize=2000
 
 matrix = np.zeros((rsize,csize))
 
-param= 0.1
+param= 0.7
 
 with open('Matrix_SMILEMETAL_NOPLD_2000.csv') as csv_file:
     data = list(csv.reader(csv_file))
