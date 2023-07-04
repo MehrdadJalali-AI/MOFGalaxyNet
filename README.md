@@ -3,3 +3,4 @@ MOFGalaxyNet is a novel tool proposed in the study to overcome the challenge of 
 
 To address this limitation, the study introduces MOFGalaxyNet, a tool that predicts guest accessibility using only information about the organic linkers and metal ions in the MOFs. MOFGalaxyNet leverages a galaxy-like MOF social network and a Graphical Convolutional Network (GCN). The network represents MOFs as nodes and captures relationships between them. The GCN analyzes the social network and predicts the guest accessibility of new MOF entries. This approach offers a general screening method for studying host-guest interactions in MOFs.
 ![MOFGalaxyNet](MOFGalaxyNet.png)
+![MOFGalaxyNet](MOFGalaxyNet.png)
