@@ -12,9 +12,9 @@ import numpy
 import time
 time_start = time.perf_counter()
 
-MOF = pd.read_csv("MOF_METAL_1000.csv")
+MOF = pd.read_csv("MOF_METAL_2000.csv")
 d = preprocessing.normalize(MOF)
-numpy.savetxt("MOF_METAL_1000_Normalised.csv", d, delimiter=",")
+numpy.savetxt("MOF_METAL_2000_Normalised.csv", d, delimiter=",")
 
 
 
