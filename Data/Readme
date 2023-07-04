@@ -1,1 +1,6 @@
-
+Adjacency Matrix.zip : Adjacency Matrix based on metal and linker similarities
+EdgesList-0.7.csv : Edgelist, after applying threshold 0.7
+EdgesList-0.5.csv : Edgelist, after applying threshold 0.5
+EdgesList-0.2.csv : Edgelist, after applying threshold 0.2
+MOF_Features.csv : MOFs Metals Informations
+SMILES_METAL_2000_NoPLD.csv : MOFs with all information.
