@@ -31,7 +31,7 @@ def similarity(row1,row2):
     
 matrix = np.zeros((rsize, csize))
 
-with open('/content/drive/MyDrive/Research/MOF/MOFSMILES/SMILES_METAL_2000_NoPLD.csv') as csv_file:
+with open('/Data/SMILES_METAL_2000_NoPLD.csv') as csv_file:
     data = list(csv.reader(csv_file))
     line_count = 0
     for row in range(rsize):
@@ -39,7 +39,7 @@ with open('/content/drive/MyDrive/Research/MOF/MOFSMILES/SMILES_METAL_2000_NoPLD
          matrix[row][col]= (alpha*(1-spatial.distance.cosine(list(np.float_(data[row][0:6])),list(np.float_(data[col][0:6]))))+(1-alpha)*similarity(data[row][8],data[col][8]))
         #  matrix[row][col]= similarity(data[row][8],data[col][8])
 
-with open('/content/drive/MyDrive/Research/MOF/MOFSMILES/Matrix_SMILEMETAL_NOPLD_2000.csv', 'w', newline='', encoding='utf-8') as f:
+with open('/Data/Matrix_SMILEMETAL_NOPLD_2000.csv', 'w', newline='', encoding='utf-8') as f:
     employee_writer = csv.writer(f)
     employee_writer.writerows(matrix)
 
