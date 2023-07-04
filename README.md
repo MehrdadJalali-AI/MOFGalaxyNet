@@ -5,11 +5,14 @@ To address this limitation, the study introduces MOFGalaxyNet, a tool that predi
 
 <p align="center">
   <img src="MOFGalaxyNet.png" >
+  <br>
+  <em>Figure 1: Transforming the metal-organic framework into a social network named as MOFGalaxyNet‎.</em>
 </p>
 
 
 <p align="center">
   <img src="Galaxy4.png" style="width:500px;">
+  <em>Figure 2: Depicts MOFGalaxyNet as a galaxy of MOF ‎‎.</em>
 </p>
 
 
